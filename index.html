@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App hub </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1> my UI</h1>
+        <p>Your gateway to essential applications and tools</p>
+    </header>
+
+    <main>
+        <!-- Google Search Bar -->
+        <section class="search-bar">
+            <form action="https://www.google.com/search" method="get" target="_blank">
+                <input type="text" name="q" placeholder="Search Google..." required>
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </section>
+
+        <!-- App Links -->
+        <section class="app-links">
+            <div class="app-card">
+                <a href="https://chat.openai.com/" target="_blank">
+                    <i class="fas fa-robot"></i>
+                    <span>ChatGPT</span>
+                </a>
+            </div>
+            <div class="app-card">
+                <a href="https://gemini.com/" target="_blank">
+                    <i class="fas fa-gem"></i>
+                    <span>Gemini</span>
+                </a>
+            </div>
+            <div class="app-card">
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© by me.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
